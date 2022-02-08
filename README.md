@@ -1,6 +1,14 @@
 # JAVA-HTTP-Server
 ### A HTTP webserver built with pure JAVA implementing sockets and not using any web or http libraries.
+
+<p align="center" width="100%">
+    <a href="#java-http-server"><img width="50%" src="https://i.ibb.co/t8sQLph/imgonline-com-ua-twotoone-R2-Oj-YEGX146-E2-PEs-removebg-preview.png"></a>
+</p>
+
 This project is under development and needs further improvement
+
+#### Project is maintained using Maven
+#### IDE used for project development is VS-Code
 
 ## Features added till now
 - Can serve basic webpages
@@ -26,3 +34,8 @@ This project is under development and needs further improvement
 >This bug is temporarly fixed by either any of the two methods :
 >- By adding delay of few hundred miliseconds in the thread at _**HttpConnectionWorkerThread**_ class after flushing the _**outputStream**_ (This fix works in all Browsers)
 >- By not closing the inputstream/outputstream/socket connection in the _**HttpConnectionWorkerThread**_ class (This fix works only in Chrome, doesnot work in any other browser)
+
+### Note:
+> If any solution is found for any of the currnet bugs mentioned, then open a issue and do a pull request with the solution there.
+>
+> Any help is highly appreciated :)
