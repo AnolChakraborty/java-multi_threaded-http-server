@@ -1,5 +1,5 @@
 # JAVA-HTTP-Server
-### A HTTP webserver built with JAVA implementing sockets and not using any web or other server libraries.
+### A high performance multi-threaded HTTP webserver built with JAVA implementing sockets and not using any web or other server libraries.
 
 <p align="center" width="100%">
     <a href="#java-http-server"><img width="100%" src="https://i.ibb.co/t8sQLph/imgonline-com-ua-twotoone-R2-Oj-YEGX146-E2-PEs-removebg-preview.png"></a>
@@ -11,6 +11,7 @@ This project is under development and needs further improvement
 #### IDE used for project development is VS-Code
 
 ## Features added till now
+- Multi-threaded request processing capability
 - Can serve basic webpages
 - Can handle javascript and css along with other files
 - Can serve multiple webpages from different directories
