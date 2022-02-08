@@ -2,7 +2,7 @@
 ### A HTTP webserver built with pure JAVA implementing sockets and not using any web or http libraries.
 
 <p align="center" width="100%">
-    <a href="#java-http-server"><img width="50%" src="https://i.ibb.co/t8sQLph/imgonline-com-ua-twotoone-R2-Oj-YEGX146-E2-PEs-removebg-preview.png"></a>
+    <a href="#java-http-server"><img width="100%" src="https://i.ibb.co/t8sQLph/imgonline-com-ua-twotoone-R2-Oj-YEGX146-E2-PEs-removebg-preview.png"></a>
 </p>
 
 This project is under development and needs further improvement
