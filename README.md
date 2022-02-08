@@ -1,5 +1,5 @@
 # JAVA-HTTP-Server
-### A HTTP webserver built with JAVA implementing sockets and not using any web or http libraries.
+### A HTTP webserver built with JAVA implementing sockets and not using any web or other server libraries.
 
 <p align="center" width="100%">
     <a href="#java-http-server"><img width="100%" src="https://i.ibb.co/t8sQLph/imgonline-com-ua-twotoone-R2-Oj-YEGX146-E2-PEs-removebg-preview.png"></a>
