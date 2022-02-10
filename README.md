@@ -3,7 +3,7 @@
 
 [![powered by](https://img.shields.io/badge/Powered%20by-JAVA-blue?style=for-the-badge&logo=java&logoColor=red&color=e67300&labelColor=3244a8)](https://www.java.com/)
 [![powered by](https://img.shields.io/badge/Managed%20using-MAVEN-blue?style=for-the-badge&logo=Apache&logoColor=E4682A&color=812878&labelColor=26235B)](https://maven.apache.org/)
-[![powered by](https://img.shields.io/badge/Java%20HTTP%20Server-HTTP/1.1-blue?style=for-the-badge&logo=AIOHTTP&logoColor=2C5BB4&color=blue&labelColor=ba0d0d)](https://datatracker.ietf.org/doc/html/rfc2616)
+[![powered by](https://img.shields.io/badge/Java%20HTTP%20Server-HTTP/1.1-blue?style=for-the-badge&logo=AIOHTTP&logoColor=black&color=blue&labelColor=ba0d0d)](https://datatracker.ietf.org/doc/html/rfc2616)
 
 <p align="center" width="100%">
     <a href="#java-http-server"><img width="100%" src="https://i.ibb.co/t8sQLph/imgonline-com-ua-twotoone-R2-Oj-YEGX146-E2-PEs-removebg-preview.png"></a>
