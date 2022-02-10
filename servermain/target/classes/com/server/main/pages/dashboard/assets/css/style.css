@@ -1,0 +1,124 @@
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+  scrollbar-color: rgb(210, 210, 210) rgb(46, 54, 69) !important;
+  scrollbar-width: thin !important;
+}
+
+::-webkit-scrollbar {
+  height: 12px;
+  width: 8px;
+  background: #000;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray;
+  -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+
+::-webkit-scrollbar-corner {
+  background: #000;
+}
+
+
+
+
+
+
+
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  background: #1e1e1e;
+  font-family: 'Oswald', sans-serif;
+}
+
+a, li, em, button, input, textarea, select {
+  text-decoration: none;
+  list-style: none;
+  font-style: normal;
+  outline: none !important;
+  transition: 0.5s;
+  resize: none;
+}
+
+ul {
+  position: relative;
+  left: -20px;
+}
+
+ul li {
+  padding: 20px 0;
+  color: gray;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+b {
+  color: #fff;
+}
+
+
+.container {
+  width: 90%;
+  margin: 10vh auto;
+}
+
+.container table {
+  width: 100%;
+}
+
+.container table td {
+  margin: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 6px 16px -6px rgba(1, 1, 1, 0.5);
+  padding: 30px;
+  background-color: #000;
+  color: #fff;
+  vertical-align: top;
+}
+
+.container table td:nth-child(1) {
+  text-align: Center;
+}
+
+.container table td:nth-child(2) .fa {
+  float: right;
+}
+
+.container table td:nth-child(2) input {
+  background: none;
+  outline: none;
+  border: 0;
+  color: gray;
+  width: 60%;
+  pointer-events: none;
+}
+
+.container table td:nth-child(1) section {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  margin: 5vh auto;
+}
+
+
+.container table td:nth-child(1) .fa {
+  position: absolute;
+  right: 25px;
+  top: 25px;
+  font-size: 2em;
+}
+
+.container table td img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+.container table td h3 {
+  color: gray;
+  font-weight: normal;
+}

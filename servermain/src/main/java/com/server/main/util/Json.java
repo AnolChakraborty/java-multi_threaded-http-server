@@ -20,7 +20,11 @@ public class Json {
     }
 
     public static JsonNode parse(String jsonSrc) throws IOException {
-        return myObjectMapper.readTree(jsonSrc);
+        try {
+            return myObjectMapper.readTree(jsonSrc);
+        } catch (Exception e) {
+            return null;
+        }
     }
 
     public static <A> A fromJson(JsonNode node, Class<A> clazz) throws JsonProcessingException {
@@ -45,5 +49,13 @@ public class Json {
             objectWriter = objectWriter.with(SerializationFeature.INDENT_OUTPUT);
         }
         return objectWriter.writeValueAsString(o);
+    }
+
+    public static String fromJson(JsonNode conf, String string) {
+        try {
+            return conf.get(string).asText();
+        } catch (Exception e) {
+            return "";
+        }
     }
 }

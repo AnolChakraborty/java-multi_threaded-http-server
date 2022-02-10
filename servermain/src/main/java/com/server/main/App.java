@@ -14,6 +14,9 @@ import org.slf4j.Logger;
  */
 public class App {
     public static void main(String[] args) {
+        
+        System.out.println("\033[H\033[2J");
+        System.out.flush();
 
         Logger logger = LoggerFactory.getLogger(App.class);
 

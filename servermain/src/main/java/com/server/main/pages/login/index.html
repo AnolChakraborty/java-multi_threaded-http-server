@@ -8,9 +8,9 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="shortcut icon" type="image/png" href="login/assets/img/favicon.png">
+  <link rel="shortcut icon" type="image/png" href="favicon/favicon.png">
   <link rel="stylesheet" href="login/assets/css/style.css">
-  <script src="login/assets/js/main.js"></script>
+  <!-- <script src="login/assets/js/main.js"></script> -->    <!-- Loading the js file at last, not here--> 
   <title>AEI | Login</title>
 </head>
 
@@ -19,23 +19,22 @@
     <div class="screen">
       <div class="screen__content">
         <a href="/"><img src="login/assets/img/logo.png" alt="" class="main-logo"></a>
-        <form class="login">
+        <div class="login">
           <div class="login__field">
             <i class="login__icon fas fa-user"></i>
-            <input type="text" class="login__input" placeholder="Roll Number" id="username">
+            <input type="text" class="login__input" placeholder="Roll Number" id="username" onclick="usernameClicked()" autocomplete="off">
           </div>
           <div class="login__field">
             <i class="login__icon fas fa-lock"></i>
-            <input type="password" class="login__input" placeholder="Password" id="password">
+            <input type="password" class="login__input" placeholder="Password" id="password" onclick="passwordClicked()" autocomplete="off">
+            <img src="login/assets/img/eye-closed.png" class="eye" id="eye" onclick="eyeClicked()">
           </div>
-          <button class="button login__submit">
-            <span class="button__text" onclick="login()">Log In Now</span>
-            <i class="button__icon fas fa-chevron-right"></i>
+          <button class="button login__submit" type=="submit" onclick="login()">
+            <span class="button__text">Log In Now</span>
           </button>
-        </form>
+        </div>
         <div class="sign-up">
-          <a href="/signup" style="text-decoration: none; color: #fff;">
-            <h3 class="sign01">Sign Up</h3>
+            <h3 class="sign01" onclick="signUp()">Sign Up</h3>
           </a>
           <br>
           <h3 style="margin-left: -71px;" class="sign01" onclick="resetPassword()">Reset password</h3>
@@ -50,5 +49,5 @@
     </div>
   </div>
 </body>
-
+<script src="login/assets/js/main.js"></script>
 </html>

@@ -18,10 +18,17 @@
   </properties>
 
   <dependencies>
+
+    <dependency>
+      <groupId>com.github.js-cookie</groupId>
+      <artifactId>java-cookie</artifactId>
+      <version>0.0.2</version>
+    </dependency>
+
     <dependency>
       <groupId>commons-io</groupId>
       <artifactId>commons-io</artifactId>
-      <version>2.6</version>
+      <version>2.11.0</version>
     </dependency>
 
     <dependency>

@@ -54,7 +54,7 @@ body {
 .screen__background__shape1 {
   height: 520px;
   width: 520px;
-  background: #FFF;
+  background: rgb(255, 255, 255);
   top: -50px;
   right: 120px;
   border-radius: 0 72px 0 0;
@@ -90,7 +90,7 @@ body {
 .login {
   width: 320px;
   padding: 30px;
-  padding-top: 156px;
+  padding-top: 187px;
 }
 
 .login__field {
@@ -180,17 +180,22 @@ body {
   transform: translateY(7px);
 }
 
-
-
 .main-logo {
   position: absolute;
-  top: -489px;
-  left: -347px;
-  right: 0;
+  top: -469px;
+  left: -123px;
+  right: 13px;
   bottom: 0;
   margin: auto;
-  width: 499px;
-  height: 316px;
+  width: 186px;
   filter: drop-shadow(7px 7px 7px #666666);
   -webkit-filter: drop-shadow(7px 7px 7px #666666);
+}
+
+.eye {
+  position: absolute;
+  width: 23px;
+  left: -5px;
+  top: 26px;
+  visibility: hidden;
 }
