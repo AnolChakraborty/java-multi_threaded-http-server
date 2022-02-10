@@ -23,7 +23,7 @@ This project is under development and needs further improvement
 - Can handle icons & images and other media _(there is a bug here)_
 - Can handle post request as well as AJAX calls
 - Cookie based session handling.
-- JSON data handling to and from the server to client
+- JSON data processing and parsing to and from the server to client
 - Use of appropiate response codes
 
 ## Features to be added
