@@ -43,7 +43,7 @@ This project is under development and needs further improvement
 >- <del>By adding delay of few hundred miliseconds in the thread at _**HttpConnectionWorkerThread**_ class after flushing the _**outputStream**_ (This fix works in all Browsers)
 >- <del>By not closing the inputstream/outputstream/socket connection in the _**HttpConnectionWorkerThread**_ class (This fix works only in Chrome, doesnot work in any other browser)
 
->Update: The bug is caused due to the clien/server closing the socket before completing the data transfer causing in broken pipe error at the socket.
+>Update: The bug is caused due to the client/server closing the socket before completing the data transfer causing in broken pipe error at the socket.
 >The bug is patched by making the thread sleep for few miliseconds(sleep time depends on the data chunk size) before letting the outputstream/socket to close.
 
 ### Note:
