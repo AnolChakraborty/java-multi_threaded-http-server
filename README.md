@@ -14,6 +14,21 @@ This project is under development and needs further improvement
 #### Project is maintained using Maven
 #### IDE used for project development is VS-Code
 
+## Server Performance 
+I tested the server in my local machine having following configuration, attached below is the result.
+
+[Benchmark Result](https://github.com/AnolChakraborty/java-multi_threaded-http-server/blob/main/Benchmark%20Result.pdf)
+
+##### &nbsp;&nbsp;&nbsp;Configuration of testing machine:
+- CPU: AMD Ryzen 5 5600H Hexa core CPU @ 4.2GHz
+- GPU: Radeon RX550M 4GB
+- RAM: 12GB DDR4 @ 3200MHz
+- Storage: 512GB M.2 SSD
+- OS: Windows 11
+- JAVA version: Open JDK v18 Windows 64bit
+- Benchmarking tool: [Webstress](https://www.paessler.com/tools/webstress)
+
+
 ## Features added till now
 - Multi-threaded request processing capability
 - Can serve basic webpages
@@ -36,15 +51,4 @@ This project is under development and needs further improvement
 - Database functionality
 
 ## Current Bug
->There is a unknown bug due to which some files (mainly image & large files) are not sent to the browser completely hence not properly interpreted in the browser as expected.
->The bug is unknown and is patched temporarily.
-
-><del>This bug is temporarly fixed by either any of the two methods :
->- <del>By adding delay of few hundred miliseconds in the thread at _**HttpConnectionWorkerThread**_ class after flushing the _**outputStream**_ (This fix works in all Browsers)
->- <del>By not closing the inputstream/outputstream/socket connection in the _**HttpConnectionWorkerThread**_ class (This fix works only in Chrome, doesnot work in any other browser)
-
->Update: The bug is caused due to the client/server closing the socket before completing the data transfer causing in broken pipe error at the socket.
->The bug is patched by making the thread sleep for few miliseconds(sleep time depends on the data chunk size) before letting the outputstream/socket to close.
-
-### Note:
-> If any solution is found for any of the currnet bugs mentioned, then open a issue and do a pull request with the found solution there.
+>Currently no bug exists.
