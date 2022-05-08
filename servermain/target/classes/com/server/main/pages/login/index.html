@@ -1,53 +1,45 @@
-<!-- Design copied from Codepen -->
-<!-- LANDING/LOGIN/INDEX PAGE FOR THE STUDENTS -->
-
 <!DOCTYPE html>
-<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Responsive Login Form | CodingLab </title>
   <link rel="shortcut icon" type="image/png" href="favicon/favicon.png">
   <link rel="stylesheet" href="login/assets/css/style.css">
-  <!-- <script src="login/assets/js/main.js"></script> -->    <!-- Loading the js file at last, not here--> 
-  <title>AEI | Login</title>
+  <script src="login/assets/js/main.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
   <div class="container">
-    <div class="screen">
-      <div class="screen__content">
-        <a href="/"><img src="login/assets/img/logo.png" alt="" class="main-logo"></a>
-        <div class="login">
-          <div class="login__field">
-            <i class="login__icon fas fa-user"></i>
-            <input type="text" class="login__input" placeholder="Roll Number" id="username" onclick="usernameClicked()" autocomplete="off">
-          </div>
-          <div class="login__field">
-            <i class="login__icon fas fa-lock"></i>
-            <input type="password" class="login__input" placeholder="Password" id="password" onclick="passwordClicked()" autocomplete="off">
-            <img src="login/assets/img/eye-closed.png" class="eye" id="eye" onclick="eyeClicked()">
-          </div>
-          <button class="button login__submit" type=="submit" onclick="login()">
-            <span class="button__text">Log In Now</span>
-          </button>
-        </div>
-        <div class="sign-up">
-            <h3 class="sign01" onclick="signUp()">Sign Up</h3>
-          </a>
-          <br>
-          <h3 style="margin-left: -71px;" class="sign01" onclick="resetPassword()">Reset password</h3>
-        </div>
+    <form>
+      <div class="title">Login
+        <a href="/"><img src="logo/logo.png" usemap="#workmap" class="home_logo"></a>
       </div>
-      <div class="screen__background">
-        <span class="screen__background__shape screen__background__shape4"></span>
-        <span class="screen__background__shape screen__background__shape3"></span>
-        <span class="screen__background__shape screen__background__shape2"></span>
-        <span class="screen__background__shape screen__background__shape1"></span>
+      <div id="mid_form_feild_padding" style="padding: 1px;"></div>
+      <div class="input-box">
+        <input type="text" id="username" placeholder=" " autocomplete="off">
+        <div class="label">Username</div>
+        <div class="underline"></div>
       </div>
+
+      <div id="mid_form_feild_padding" style="padding: 5px;"></div>
+
+      <div class="input-box">
+        <input type="password" id="password" placeholder=" " autocomplete="off">
+        <div class="label">Password</div>
+        <img src="login/assets/img/eye-closed.png" class="eye" id="eye" onclick="eyeClicked()">
+        <div class="underline"></div>
+      </div>
+    </form>
+    <div style="padding-top: 20px;">
+      <button class="a login" onclick="logIn()">logIn</button>
     </div>
+    <div style="margin-bottom: 70px;"></div>
+    <div class="option">Forgot your password? Reset it here</div>
+    <button class="a reset" onclick="resetPassword()">Reset password</button>
+    <div class="option">Dont have an account? Create one</div>
+    <button class="a signup" onclick="signUp()">Signup</button>
   </div>
 </body>
-<script src="login/assets/js/main.js"></script>
+
 </html>

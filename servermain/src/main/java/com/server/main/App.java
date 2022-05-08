@@ -24,7 +24,7 @@ public class App {
         logger.info("Starting server............");
         try {
             ConfigurationManager.getInstance().loadConfigurationFile(
-                    "/home/ascrack/Documents/5th sem/projects/major-project/servermain/src/main/java/com/server/main/resources/http.json");
+                    "C:\\AnolCH\\Documents\\5th sem\\projects\\major-project\\servermain\\src\\main\\java\\com\\server\\main\\resources\\http.json");
         } catch (IOException e) {
             // System.out.println("Configuratiom file missing or wrong path.");
             logger.info("Configuratiom file missing or wrong path.");
