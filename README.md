@@ -48,7 +48,7 @@ I tested the server in my local machine having following configuration, attached
 - Proper handling of request method (POST/GET etc)
 
 ## Upcoming feature
-- Database functionality
+- GET request handling and GET data parsing
 
 ## Current Bug
 >Currently no bug exists.
