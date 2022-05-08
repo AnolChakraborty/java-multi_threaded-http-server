@@ -40,10 +40,10 @@ I tested the server in my local machine having following configuration, attached
 - Cookie based session handling.
 - JSON data processing and parsing to and from the server to client
 - Use of appropiate response codes
+- Database integration with MySQL
 
 ## Features to be added
 - To handle Get request
-- Add functionality of databases
 - Video Streaming capabilities
 - Proper handling of request method (POST/GET etc)
 
